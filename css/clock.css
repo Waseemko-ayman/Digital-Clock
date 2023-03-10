@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+.clock-container {
+    color: black;
+    background-color: gold;
+    width: 250px;
+    padding: 17px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock-container:hover {
+    box-shadow: 0 0 10px gold;
+}
+
+.clock-container .date {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.clock-container .time {
+    font-size: 30px;
+    font-weight: bold;
+}
